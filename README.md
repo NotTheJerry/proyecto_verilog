@@ -43,4 +43,7 @@ Gabriel Isaí Alcaraz Suarez<br>
 Kevin Manuel Sanchez Agredano<br>
 Diego Gerardo Quintero Gonzalez<br>
 
+| [<img src="https://avatars.githubusercontent.com/u/92762365?v=4" width=115><br><sub>Diego Gerardo Quintero Gonzalez</sub>](https://github.com/NotTheJerry) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Kevin Manuel Sanchez Agredano</sub>](https://github.com/Kevinmsa) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+| :---: | :---: | :---: |
+
 <h2>Conclusión</h2>
