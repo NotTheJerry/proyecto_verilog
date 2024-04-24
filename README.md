@@ -1,4 +1,5 @@
 <h1 aling="center"> Dak-G </h1>
+
 ![Logo Dak-G](https://github.com/NotTheJerry/proyecto_verilog/assets/167741900/4a80c4cd-0f99-45d8-957c-e04f49f66122)
 
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
