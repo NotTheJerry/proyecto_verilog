@@ -35,14 +35,12 @@
 * asm
 
 <h2>Personas Contribuyentes</h2>
-JORGE ERNESTO LOPEZ ARCE DELGADO
+Jorge Ernesto Lopez Arce Delgado
 
 <h2>Personas Desarrolladoras del Proyecto</h2>
-Alan Sabastian Guzmán Marquez
-Gabriel Isaí Alcaraz Suarez
-Kevin Manuel Sanchez Agredano
-Diego Gerardo Quintero Gonzalez
-
-<h2>Licencia</h2>
+Alan Sabastian Guzmán Marquez<br>
+Gabriel Isaí Alcaraz Suarez<br>
+Kevin Manuel Sanchez Agredano<br>
+Diego Gerardo Quintero Gonzalez<br>
 
 <h2>Conclusión</h2>
