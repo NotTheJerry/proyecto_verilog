@@ -38,12 +38,8 @@
 Jorge Ernesto Lopez Arce Delgado
 
 <h2>Personas Desarrolladoras del Proyecto</h2>
-Alan Sabastian Guzmán Marquez<br>
-Gabriel Isaí Alcaraz Suarez<br>
-Kevin Manuel Sanchez Agredano<br>
-Diego Gerardo Quintero Gonzalez<br>
 
-| [<img src="https://avatars.githubusercontent.com/u/167796016?v=4" width=115><br><sub>Gabriel Isaí Alcaraz Suarez</sub>](https://github.com/gaboLectric) |  [<img src="https://avatars.githubusercontent.com/u/167741900?v=4" width=115><br><sub>Kevin Manuel Sanchez Agredano</sub>](https://github.com/Kevinmsa) |  [<img src="https://avatars.githubusercontent.com/u/92762365?v=4" width=115><br><sub>Diego Gerardo Quintero Gonzalez</sub>](https://github.com/NotTheJerry) |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/167795856?v=4" width=115><br><sub>Alan Sabastian Guzmán Marquez</sub>](https://github.com/alanguxman) | [<img src="https://avatars.githubusercontent.com/u/167796016?v=4" width=115><br><sub>Gabriel Isaí Alcaraz Suarez</sub>](https://github.com/gaboLectric) |  [<img src="https://avatars.githubusercontent.com/u/167741900?v=4" width=115><br><sub>Kevin Manuel Sanchez Agredano</sub>](https://github.com/Kevinmsa) |  [<img src="https://avatars.githubusercontent.com/u/92762365?v=4" width=115><br><sub>Diego Gerardo Quintero Gonzalez</sub>](https://github.com/NotTheJerry) |
+| :---: | :---: | :---: | :---: |
 
 <h2>Conclusión</h2>
