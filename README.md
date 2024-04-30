@@ -1,4 +1,4 @@
-<h1 aling="center"> Dak-G </h1>
+<h1 aling="center">Dak-G</h1>
 
 ![Logo Dak-G](https://github.com/NotTheJerry/proyecto_verilog/assets/167741900/4a80c4cd-0f99-45d8-957c-e04f49f66122)
 
@@ -6,7 +6,7 @@
 
 <h2>Índice</h2>
 
-* [Título e imagen de portada](#Título-e-imagen-de-portada)
+* [Título e imagen de portada](#Dak-G)
 * [Insignias](#insignias)
 * [Índice](#índice)
 * [Descripción del proyecto](#descripción-del-proyecto)
