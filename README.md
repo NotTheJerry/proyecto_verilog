@@ -13,11 +13,11 @@
 * [Índice](#índice)
 * [Descripción del proyecto](#descripción-del-proyecto)
 * [Estado del proyecto](#Estado-del-proyecto)
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-* [Acceso al proyecto](#acceso-proyecto)
+* [Demostración de funciones y aplicaciones](#Demostración-de-funciones-y-aplicaciones)
+* [Acceso al Proyecto](#Acceso-al-proyecto)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
 * [Personas Contribuyentes](#personas-contribuyentes)
-* [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+* [Personas Desarrolladoras del Proyecto](#Personas-desarrolladoras-del-proyecto)
 * [Conclusión](#conclusión)
 
 <h2>Descripción del Proyecto</h2>
