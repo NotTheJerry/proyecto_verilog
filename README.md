@@ -7,7 +7,7 @@
 <h2>Índice</h2>
 
 * [Título e imagen de portada](#Dak-G)
-* [Insignias](#insignias)
+* [Insignias](#Badge-en-Desarollo)
 * [Índice](#índice)
 * [Descripción del proyecto](#descripción-del-proyecto)
 * [Estado del proyecto](#Estado-del-proyecto)
