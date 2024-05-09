@@ -1,0 +1,611 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/oem/Documents/arq/mem_instrucciones
+vALU
+Z0 !s110 1715057795
+!i10b 1
+!s100 zT3biNUgkdJj1:[6bB^eV0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlGE=b`1Hz[QUGo;]iNRnD2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/oem/Documents/arq/Verilog_Fase1.2
+Z4 w1714628869
+8/home/oem/Documents/arq/Verilog_Fase1.2/ALU.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/ALU.v
+!i122 779
+L0 2 15
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1715057795.000000
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/ALU.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@l@u
+vALU_Control
+R0
+!i10b 1
+!s100 NU_7<D2NBcLi2mjNdNeRF2
+R1
+I08jVDl[0@XZkecgQ6zP7D1
+R2
+R3
+R4
+8/home/oem/Documents/arq/Verilog_Fase1.2/ALU_Control.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/ALU_Control.v
+!i122 780
+Z9 L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/ALU_Control.v|
+!i113 1
+R7
+R8
+n@a@l@u_@control
+vALUControl_tb
+R0
+!i10b 1
+!s100 3i:_;IEUdllSRmlmmf[>52
+R1
+IGlAoacQ=dNBgPmi[8eFjQ2
+R2
+R3
+R4
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_ALUControl.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_ALUControl.v
+!i122 785
+L0 1 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_ALUControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_ALUControl.v|
+!i113 1
+R7
+R8
+n@a@l@u@control_tb
+vBancoRegistros
+R0
+!i10b 1
+!s100 g3BfSR;WNDb1S9NC`YHOa1
+R1
+ILi?hfo1mbMGVTTm;_:g>l1
+R2
+R3
+R4
+8/home/oem/Documents/arq/Verilog_Fase1.2/BancoRegistros.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/BancoRegistros.v
+!i122 781
+L0 1 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/BancoRegistros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/BancoRegistros.v|
+!i113 1
+R7
+R8
+n@banco@registros
+vCompuerta_AND
+Z10 !s110 1715057796
+!i10b 1
+!s100 [nQz2[4:j:Jca1f<2:44<3
+R1
+I`5Tj69JMXdTN86;ncKI9H2
+R2
+R3
+w1715047970
+8/home/oem/Documents/arq/Verilog_Fase1.2/Compuerta_AND.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Compuerta_AND.v
+!i122 797
+Z11 L0 1 5
+R5
+r1
+!s85 0
+31
+Z12 !s108 1715057796.000000
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Compuerta_AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Compuerta_AND.v|
+!i113 1
+R7
+R8
+n@compuerta_@a@n@d
+vDataPath_TipoR
+R0
+!i10b 1
+!s100 94z:eAG`Z9ijJ>Sg91K=k3
+R1
+I;3jYfODB<eCVg8UX@>82a0
+R2
+R3
+w1715057785
+8/home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v
+F/home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v
+!i122 782
+L0 1 99
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v|
+!i113 1
+R7
+R8
+n@data@path_@tipo@r
+vMemoria
+R0
+!i10b 1
+!s100 V4mAUJ`zbhUKl6TbDN>gF2
+R1
+InPeglN?X<RLmlh6linaD_3
+R2
+R3
+R4
+8/home/oem/Documents/arq/Verilog_Fase1.2/Memoria.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Memoria.v
+!i122 783
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Memoria.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Memoria.v|
+!i113 1
+R7
+R8
+n@memoria
+vMemoriaDeInstrucciones
+R10
+!i10b 1
+!s100 `5C]l?U9JLMgL?1RD^Xbk2
+R1
+I[8d>6OOAdGS[1EKR9[`9D0
+R2
+R3
+w1715046717
+8/home/oem/Documents/arq/Verilog_Fase1.2/MemoriaDeInstrucciones.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/MemoriaDeInstrucciones.v
+!i122 792
+L0 1 16
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/MemoriaDeInstrucciones.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/MemoriaDeInstrucciones.v|
+!i113 1
+R7
+R8
+n@memoria@de@instrucciones
+vMultiplexor
+R0
+!i10b 1
+!s100 BHHFDbl5IAlW0Q=]OLN_K0
+R1
+IdBPa>>2V>4bT4EJDb<@CI3
+R2
+R3
+R4
+8/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor.v
+!i122 784
+Z13 L0 1 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor.v|
+!i113 1
+R7
+R8
+n@multiplexor
+vMultiplexor_5_bits_2_a_1
+R10
+!i10b 1
+!s100 VF0W=KY9zP`?j98:K>7KE0
+R1
+INIFRS@PSkJ1m;lmDmci4<3
+R2
+R3
+w1715057313
+8/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v
+!i122 801
+L0 1 11
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v|
+!i113 1
+R7
+R8
+n@multiplexor_5_bits_2_a_1
+vMultiplexor_6_bits_2_a_1
+!s110 1715057028
+!i10b 1
+!s100 QM919T5N7AXE@OTO9Dke62
+R1
+IOff6dl<5L2REcaRh2WDDk3
+R2
+R3
+w1715046082
+8/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_6_bits_2_a_1.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_6_bits_2_a_1.v
+!i122 611
+L0 1 12
+R5
+r1
+!s85 0
+31
+!s108 1715057028.000000
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_6_bits_2_a_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_6_bits_2_a_1.v|
+!i113 1
+R7
+R8
+n@multiplexor_6_bits_2_a_1
+vPC
+R10
+!i10b 1
+!s100 T7;HdXa3YZI9B[[Yd7dD>2
+R1
+IeEV]Gch3NhWV^L[FfZIcm0
+R2
+R3
+w1715057679
+8/home/oem/Documents/arq/Verilog_Fase1.2/PC.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/PC.v
+!i122 790
+L0 1 7
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/PC.v|
+!i113 1
+R7
+R8
+n@p@c
+vShift_left_2
+R10
+!i10b 1
+!s100 S0g`g2Q0397>WLgQ6VS[n3
+R1
+I6C:40W43n<@E]<_moXc@02
+R2
+R3
+w1715056822
+8/home/oem/Documents/arq/Verilog_Fase1.2/Shift_Left_2.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Shift_Left_2.v
+!i122 800
+R11
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Shift_Left_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Shift_Left_2.v|
+!i113 1
+R7
+R8
+n@shift_left_2
+vSign_extend
+R10
+!i10b 1
+!s100 TkkWmA<gXYc62UL4hMbd81
+R1
+IGHEL7oA[O1D[`2<?iiTeB0
+R2
+R3
+w1715056081
+8/home/oem/Documents/arq/Verilog_Fase1.2/Sign_Extend.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Sign_Extend.v
+!i122 798
+R13
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Sign_Extend.v|
+!i113 1
+R7
+R8
+n@sign_extend
+vSumador
+R10
+!i10b 1
+!s100 ::Q569P@FiO4P6Q:WJ3P<0
+R1
+I9b<zOEZI`<jQIlNN7MIXT2
+R2
+R3
+w1715041588
+8/home/oem/Documents/arq/Verilog_Fase1.2/Sumador.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Sumador.v
+!i122 794
+L0 1 3
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Sumador.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Sumador.v|
+!i113 1
+R7
+R8
+n@sumador
+vtb_DataPath
+R10
+!i10b 1
+!s100 @99;hL2SJ7>UC0Vf2;fc72
+R1
+IVUcXYckJmPVaXiSD@j2UM3
+R2
+R3
+w1715057727
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_DataPath .v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_DataPath .v
+!i122 786
+L0 2 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_DataPath .v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_DataPath .v|
+!i113 1
+R7
+R8
+ntb_@data@path
+vtb_MemoriaDeInstrucciones
+R10
+!i10b 1
+!s100 OEfkH_nk_nRCSfD6>Gnj?3
+R1
+IgWaiB<PLU[G6_T6gN@HJj2
+R2
+R3
+w1715044947
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_MemoriaDeInstrucciones.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_MemoriaDeInstrucciones.v
+!i122 793
+L0 3 12
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_MemoriaDeInstrucciones.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_MemoriaDeInstrucciones.v|
+!i113 1
+R7
+R8
+ntb_@memoria@de@instrucciones
+vtb_Multiplexor
+R10
+!i10b 1
+!s100 lc9l2md0:iklV8nV@M3SE2
+R1
+I3R[l3JBXPXcAASRTMaJ=W1
+R2
+R3
+Z14 w1715041671
+Z15 8/home/oem/Documents/arq/Verilog_Fase1.2/tb_UnidadDeControl.v
+Z16 F/home/oem/Documents/arq/Verilog_Fase1.2/tb_UnidadDeControl.v
+!i122 787
+L0 21 20
+R5
+r1
+!s85 0
+31
+R12
+Z17 !s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_UnidadDeControl.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_UnidadDeControl.v|
+!i113 1
+R7
+R8
+ntb_@multiplexor
+vtb_Multiplexor_6_bits_2_a_1
+R10
+!i10b 1
+!s100 Nf_4W4O>lK<YITbo6h;VW1
+R1
+IWXiK@f_g@53Bj<UHn;CL;2
+R2
+R3
+w1715045219
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_Multiplexor_6_bits_2_a_1.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_Multiplexor_6_bits_2_a_1.v
+!i122 796
+L0 1 25
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_Multiplexor_6_bits_2_a_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_Multiplexor_6_bits_2_a_1.v|
+!i113 1
+R7
+R8
+ntb_@multiplexor_6_bits_2_a_1
+vtb_PC
+R10
+!i10b 1
+!s100 E;Cn3n6TbS[UQ_jXiJi[P2
+R1
+I_c^AW?o4bGeEeYQ4GFS_40
+R2
+R3
+w1715041422
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_PC.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_PC.v
+!i122 791
+L0 2 19
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_PC.v|
+!i113 1
+R7
+R8
+ntb_@p@c
+vtb_Sign_extend
+R10
+!i10b 1
+!s100 k[doI`Vd@oB1C^kYiE2o73
+R1
+IRU=DILf<jz4kiUmiP;`PQ0
+R2
+R3
+w1715049746
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_Sign_Extend.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_Sign_Extend.v
+!i122 799
+L0 1 13
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_Sign_Extend.v|
+!i113 1
+R7
+R8
+ntb_@sign_extend
+vtb_Sumador
+R10
+!i10b 1
+!s100 0XX?i2YOCXf7WVj1ND@T33
+R1
+IiVNH5iA1GTO>4lIX<9MHm2
+R2
+R3
+w1715041642
+8/home/oem/Documents/arq/Verilog_Fase1.2/tb_Sumador.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/tb_Sumador.v
+!i122 795
+L0 3 11
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/tb_Sumador.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/tb_Sumador.v|
+!i113 1
+R7
+R8
+ntb_@sumador
+vtb_UnidadDeControl
+R10
+!i10b 1
+!s100 aIcd2:[=?hLH<M8][GfZ33
+R1
+IP^kWYKPDO]^JAlDdCWEOS2
+R2
+R3
+R14
+R15
+R16
+!i122 787
+L0 3 16
+R5
+r1
+!s85 0
+31
+R12
+R17
+R18
+!i113 1
+R7
+R8
+ntb_@unidad@de@control
+vTipoR
+R10
+!i10b 1
+!s100 RAHiO4]F937mWD88a8OE;2
+R1
+I6=hZ0gl[0K`;63HMXEk;23
+R2
+R3
+R4
+8/home/oem/Documents/arq/Verilog_Fase1.2/Tipo_R.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/Tipo_R.v
+!i122 788
+R13
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/Tipo_R.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/Tipo_R.v|
+!i113 1
+R7
+R8
+n@tipo@r
+vUnidadDeControl
+R10
+!i10b 1
+!s100 mOTmo:eZQ^n@?>[2U33ef1
+R1
+IU_YIRlmBjZi_J_8Cj]]<A3
+R2
+R3
+w1715047731
+8/home/oem/Documents/arq/Verilog_Fase1.2/UnidadDeControl.v
+F/home/oem/Documents/arq/Verilog_Fase1.2/UnidadDeControl.v
+!i122 789
+L0 1 26
+R5
+r1
+!s85 0
+31
+R12
+!s107 /home/oem/Documents/arq/Verilog_Fase1.2/UnidadDeControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/oem/Documents/arq/Verilog_Fase1.2/UnidadDeControl.v|
+!i113 1
+R7
+R8
+n@unidad@de@control
