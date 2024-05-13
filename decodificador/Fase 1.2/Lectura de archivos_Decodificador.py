@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
+import subprocess
 
 codigos_instrucciones = {
     # Instrucciones de movimiento de datos
@@ -106,6 +107,7 @@ def decodificar_linea(linea, codigos_instrucciones):
 def abrir_archivo():
     archivo_entrada = filedialog.askopenfilename(filetypes=[("Archivos ASM", "*.asm")])
     if archivo_entrada:
+        subprocess.Popen(['notepad.exe', archivo_entrada])  # Abre el archivo con el bloc de notas
         texto_archivo_entrada.delete(1.0, tk.END)
         texto_archivo_entrada.insert(1.0, archivo_entrada)
 
