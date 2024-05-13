@@ -1,5 +1,4 @@
-module DataPath_TipoR ( input [31:0] Instruccion_TR ,
-input CLK,
+module DataPath_TipoR ( input CLK,
 output [31:0] tr_salida_final );
 
 /* PC */   wire [31:0] salida_PC;
@@ -45,10 +44,6 @@ wire [31:0] c2;
 /* Cable salida del multiplexor final mas recargado a la derecha */  wire [31:0] s_mux_final;
 
 
-
-
-PC pc ( .entrada_PC( salida_multiplexor_arriba ), .CLK( CLK ), .salida_PC( d1 ) );
-
 Sumador sumador ( .entrada1( d1 ), .entrada2( reg_mas_4 ), .salida( d2 ) ); 
 
 Shift_left_2 shift_left_2 ( .in( q1 ), .out( sh1 ) );
@@ -57,14 +52,23 @@ Sumador sumador_ALU_Result ( .entrada1( d2 ), .entrada2( sh1 ), .salida( ad1 ) )
 
 Multiplexor mux1 ( .a( ad1 ), .b( d2 ), .selector( k1 ),  .salida( salida_multiplexor_arriba ) );
 
+PC pc ( .entrada_PC( salida_multiplexor_arriba ), .CLK( CLK ), .salida_PC( d1 ) );
+
 MemoriaDeInstrucciones memInstruc ( .dir( d1 ), .salidaMemoriaDeInstrucciones( d3 ) );
+
+
 
 Multiplexor_5_bits_2_a_1 mux_entre_memInstrucciones_y_banco ( .a( d3[20:16] ), .b( d3[15:11] ), .selector( RegDst ),  .salida( d6 ) );
 
-BancoRegistros bancoRegistros ( .ra1( d3[25:21] ), .ra2( d3[20:16] ), .di( s_mux_final ), .dir( d6 ), .ena( RegWrite ),
+BancoRegistros bancoRegistros ( .ra1( d3[25:21] ), .ra2( d3[20:16] ), .di( d3 ), .dir( d6 ), .ena( RegWrite ),
                                 .dr1( d4 ), .dr2( d5 ) );
 
-// Sign_Extend s ( .a( d3[15:0] ), .salida( q1 ) );
+
+
+
+
+Sign_Extend s1 ( .a( d3[15:0] ), .salida( q1 ) );
+
  
 Multiplexor mux_entre_banco_y_alu_natural ( .a( q1 ), .b( d5 ), .selector( ALUSrc ), .salida( f1 ) );
 
@@ -75,7 +79,6 @@ ALU_Control aluControl ( .entradaFunct( d3[5:0] ), .ALUOp( AluOpUnidad ), .salid
 UnidadDeControl unidadDeControl ( .op( d3[31:26] ), 
 .RegDst( RegDst ), .Branch( Branch ), .MemToRead( MemToRead ),  .MemToReg( MemToReg ),
 .MemToWrite( MemToWrite ), .ALUSrc( ALUSrc ), .RegWrite( RegWrite ), .AluOp( AluOpUnidad ) );
-
 
 
 ALU alu ( .op1( d4 ), .op2( f1 ), .sel( c4 ), .res( c3 ), .zf( salida_zf ) );
@@ -91,7 +94,7 @@ Memoria memoria ( .dato( d5 ), .direccion( c3 ), .sel( MemToWrite ), .salida( c5
 Multiplexor multiplexor ( .a( c5 ), .b( c3 ), .selector( MemToReg ), .salida( s_mux_final ) );
 
 
-assign tr_salida_final = salida_multiplexor_arriba;
+assign tr_salida_final = s_mux_final;
 
 
 // mux normal a -- 1    b --- 0

@@ -1,0 +1,2237 @@
+# Loading project llllll
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# vsim work.tb_DataPath 
+# Start time: 22:03:21 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# ** Error: (vsim-3033) Instantiation of 'Sign_Extend' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_DataPath/d File: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v Line: 73
+#         Searched libraries:
+#             /home/oem/Documents/arq/Verilog_Fase1.2/work
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+# Error loading design
+# End time: 22:03:21 on May 12,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# vsim work.tb_DataPath 
+# Start time: 22:04:41 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:05:59 on May 12,2024, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 3
+# vsim work.tb_DataPath 
+# Start time: 22:05:59 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:06:58 on May 12,2024, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:06:58 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:07:33 on May 12,2024, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:07:33 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:08:12 on May 12,2024, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:08:12 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v failed with 1 errors.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 1 failed with 1 error.
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:16:51 on May 12,2024, Elapsed time: 0:08:39
+# Errors: 0, Warnings: 3
+# vsim work.tb_DataPath 
+# Start time: 22:16:51 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:17:24 on May 12,2024, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:17:24 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:18:02 on May 12,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:18:02 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:18:38 on May 12,2024, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:18:38 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:19:16 on May 12,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:19:16 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:20:40 on May 12,2024, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:20:40 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:22:47 on May 12,2024, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:22:47 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint  \
+sim:/tb_DataPath/instruccion_TR \
+sim:/tb_DataPath/CLK \
+sim:/tb_DataPath/tr_salida_final
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:23:19 on May 12,2024, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:23:19 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:23:44 on May 12,2024, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:23:44 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:28:09 on May 12,2024, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:28:09 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:32:32 on May 12,2024, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:32:32 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:37:06 on May 12,2024, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:37:06 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.PC
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:38:12 on May 12,2024, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:38:12 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.PC
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint  \
+sim:/tb_DataPath/instruccion_TR \
+sim:/tb_DataPath/CLK \
+sim:/tb_DataPath/tr_salida_final
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:39:46 on May 12,2024, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:39:46 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:42:14 on May 12,2024, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:42:14 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.PC
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/tb_DataPath/instruccion_TR \
+sim:/tb_DataPath/CLK \
+sim:/tb_DataPath/tr_salida_final
+vsim work.tb_DataPath
+# End time: 22:42:33 on May 12,2024, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:42:33 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.PC
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v failed with 1 errors.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 1 failed with 1 error.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:47:58 on May 12,2024, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 3
+# vsim work.tb_DataPath 
+# Start time: 22:47:58 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:48:21 on May 12,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:48:21 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:50:13 on May 12,2024, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:50:13 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:50:38 on May 12,2024, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:50:38 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:51:10 on May 12,2024, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:51:10 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:52:02 on May 12,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:52:02 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:52:25 on May 12,2024, Elapsed time: 0:00:23
+# Errors: 1, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:52:25 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+vsim work.tb_DataPath
+# End time: 22:53:04 on May 12,2024, Elapsed time: 0:00:39
+# Errors: 1, Warnings: 1
+# vsim work.tb_DataPath 
+# Start time: 22:53:04 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:53:29 on May 12,2024, Elapsed time: 0:00:25
+# Errors: 1, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:53:29 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:54:19 on May 12,2024, Elapsed time: 0:00:50
+# Errors: 1, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:54:19 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+vsim work.tb_DataPath
+# End time: 22:55:06 on May 12,2024, Elapsed time: 0:00:47
+# Errors: 1, Warnings: 1
+# vsim work.tb_DataPath 
+# Start time: 22:55:06 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+vsim work.tb_DataPath
+# End time: 22:55:47 on May 12,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:55:47 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/tb_DataPath/instruccion_TR \
+sim:/tb_DataPath/CLK \
+sim:/tb_DataPath/tr_salida_final
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:56:12 on May 12,2024, Elapsed time: 0:00:25
+# Errors: 1, Warnings: 3
+# vsim work.tb_DataPath 
+# Start time: 22:56:12 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:57:34 on May 12,2024, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:57:34 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 22:59:53 on May 12,2024, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 22:59:53 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 0
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+#   Active process: /tb_DataPath/d/mux1/#IMPLICIT-WIRE(salida)#54 @ sub-iteration 1
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:54
+#   Active process: /tb_DataPath/d/pc/#IMPLICIT-WIRE(salida_PC)#56 @ sub-iteration 2
+#     Source: /home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v failed with 1 errors.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 1 failed with 1 error.
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v failed with 1 errors.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 1 failed with 1 error.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:02:01 on May 12,2024, Elapsed time: 0:02:08
+# Errors: 1, Warnings: 4
+# vsim work.tb_DataPath 
+# Start time: 23:02:01 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:02:40 on May 12,2024, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 23:02:40 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:03:31 on May 12,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 23:03:31 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:12:01 on May 12,2024, Elapsed time: 0:08:30
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 23:12:01 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:12:31 on May 12,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 23:12:31 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:13:33 on May 12,2024, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
+# vsim work.tb_DataPath 
+# Start time: 23:13:33 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of BancoRegistros.v was successful.
+# Compile of DataPath_TipoR .v was successful.
+# Compile of Memoria.v was successful.
+# Compile of Multiplexor.v was successful.
+# Compile of tb_ALUControl.v was successful.
+# Compile of tb_DataPath .v was successful.
+# Compile of tb_UnidadDeControl.v was successful.
+# Compile of Tipo_R.v was successful.
+# Compile of UnidadDeControl.v was successful.
+# Compile of PC.v was successful.
+# Compile of tb_PC.v was successful.
+# Compile of MemoriaDeInstrucciones.v was successful.
+# Compile of tb_MemoriaDeInstrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of tb_Sumador.v was successful.
+# Compile of tb_Multiplexor_6_bits_2_a_1.v was successful.
+# Compile of Compuerta_AND.v was successful.
+# Compile of Sign_Extend.v was successful.
+# Compile of tb_Sign_Extend.v was successful.
+# Compile of Shift_Left_2.v was successful.
+# Compile of Multiplexor_5_bits_2_a_1.v was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.tb_DataPath
+# End time: 23:19:17 on May 12,2024, Elapsed time: 0:05:44
+# Errors: 0, Warnings: 4
+# vsim work.tb_DataPath 
+# Start time: 23:19:17 on May 12,2024
+# Loading work.tb_DataPath
+# Loading work.DataPath_TipoR
+# Loading work.Sumador
+# Loading work.Shift_left_2
+# Loading work.Multiplexor
+# Loading work.PC
+# Loading work.MemoriaDeInstrucciones
+# Loading work.Multiplexor_5_bits_2_a_1
+# Loading work.BancoRegistros
+# Loading work.Sign_Extend
+# Loading work.ALU_Control
+# Loading work.UnidadDeControl
+# Loading work.ALU
+# Loading work.Compuerta_AND
+# Loading work.Memoria
+add wave -position insertpoint sim:/tb_DataPath/*
+# Break key hit
+add wave -position insertpoint  \
+sim:/tb_DataPath/CLK \
+sim:/tb_DataPath/tr_salida_final
+run -all
+# Break key hit
+# Break key hit

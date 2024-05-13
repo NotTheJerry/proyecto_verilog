@@ -5,6 +5,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	PC
 
+} {} {}} {/home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v} {1 {vlog -work work -stats=none {/home/oem/Documents/arq/Verilog_Fase1.2/DataPath_TipoR .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath_TipoR
+
+Top level modules:
+	DataPath_TipoR
+
 } {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/tb_UnidadDeControl.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/tb_UnidadDeControl.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module tb_UnidadDeControl
@@ -63,13 +70,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Memoria
 
-} {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Multiplexor_5_bits_2_a_1
-
-Top level modules:
-	Multiplexor_5_bits_2_a_1
-
 } {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/Sumador.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/Sumador.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Sumador
@@ -77,19 +77,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Sumador
 
-} {} {}} {/home/oem/Documents/arq/Verilog_Fase1.2/tb_DataPath .v} {1 {vlog -work work -stats=none {/home/oem/Documents/arq/Verilog_Fase1.2/tb_DataPath .v}
+} {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/Multiplexor_5_bits_2_a_1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb_DataPath
+-- Compiling module Multiplexor_5_bits_2_a_1
 
 Top level modules:
-	tb_DataPath
-
-} {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/MemoriaDeInstrucciones.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/MemoriaDeInstrucciones.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MemoriaDeInstrucciones
-
-Top level modules:
-	MemoriaDeInstrucciones
+	Multiplexor_5_bits_2_a_1
 
 } {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/UnidadDeControl.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/UnidadDeControl.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -100,10 +93,10 @@ Top level modules:
 
 } {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/Sign_Extend.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/Sign_Extend.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Sign_extend
+-- Compiling module Sign_Extend
 
 Top level modules:
-	Sign_extend
+	Sign_Extend
 
 } {} {}} /home/oem/Documents/arq/Verilog_Fase1.2/tb_Sumador.v {1 {vlog -work work -stats=none /home/oem/Documents/arq/Verilog_Fase1.2/tb_Sumador.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

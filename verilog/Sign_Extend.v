@@ -1,4 +1,4 @@
-module Sign_extend (
+module Sign_Extend (
     input [15:0] a,
     output reg [31:0] salida
 );
