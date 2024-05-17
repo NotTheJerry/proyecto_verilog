@@ -18,8 +18,15 @@ def decodificar_instrucciones():
     with open(archivo_entrada) as entrada, open(archivo_salida, 'w') as salida:
         for linea in entrada:
             instruccion_binaria = decodificar_linea(linea.strip(), codigos_TipoR)
-            salida.write(instruccion_binaria + '\n')
+            parte = dividirEnPartes(instruccion_binaria)
+            # salida.write(instruccion_binaria + '\n')
+            # print(parte)
+            salida.write('\n'.join(parte) + '\n')
     return archivo_salida
+
+
+def dividirEnPartes(texto):
+    return [texto[i:i+8] for i in range(0, len(texto), 8) ]
 
 def decodificar_linea(linea, codigos_TipoR):
     partes = linea.split(',')
