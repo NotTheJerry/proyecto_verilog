@@ -12,41 +12,102 @@ codigos_TipoR = {
     'slt': {'op': '000000', 'funct': '101010'},  # SLT-set on less than
 }
 
+codigos_TipoI = {
+    'lw': {'op': '100011', 'funct': '100000'},  
+    'sw': {'op': '101011', 'funct': '100010'},  
+    'addi': {'op': '001000', 'funct': '100100'},
+    'andi': {'op': '001100', 'funct': '100101'},
+    'beq': {'op': '000100', 'funct': '101010'}, 
+}
+
+codigos_TipoJ = {
+    'j': {'op': '000010'},   
+    'jal': {'op': '000011'}, 
+}
+
+def decodificar_linea(linea):
+    global codigos_TipoR
+    global codigos_TipoI
+    global codigos_TipoJ
+
+    partes = linea.split(',')
+    
+    if len(partes) == 2:
+        print("HOLAAA 1")
+        operacion = partes[0]
+        direccion = partes[1]
+
+        informacion_operacion = codigos_TipoJ[operacion]
+
+        opcode = informacion_operacion['op']
+        direccion_tipo_J = f'{int(direccion):026b}'
+
+        codigo_binario = (opcode + direccion_tipo_J)
+
+        return codigo_binario
+
+    if ("#" in partes[3] and len(partes) == 4): 
+        print("HOLAAA 2")
+        operacion = partes[0]
+        registro_fuente = partes[1]
+        registro_t = partes[2]
+        inmediato = partes[3]
+        valor_inmediato = inmediato[1:]
+
+        informacion_operacion = codigos_TipoI[operacion]
+
+        opcode = informacion_operacion['op']
+        rs = f'{int(registro_fuente):05b}'
+        rt = f'{int(registro_t):05b}'
+        inmediato = f'{int(valor_inmediato):016b}'
+
+        # print("OPCODE ", opcode)
+        # print("RS ", rs)
+        # print("RT ", rt)
+        # print("INMEDIATO ", inmediato)
+
+        codigo_binario = (opcode + rs + rt + inmediato)
+
+        return codigo_binario
+        
+    if (len(partes) == 4):
+        operacion = partes[0]
+        registro_fuente1 = partes[1]
+        registro_fuente2 = partes[2]
+        registro_destino = partes[3]
+
+        informacion_operacion = codigos_TipoR[operacion]
+
+        opcode = informacion_operacion['op']
+        funct = informacion_operacion['funct']
+        fs = f'{int(registro_fuente1):05b}'
+        ft = f'{int(registro_fuente2):05b}'
+        fd = f'{int(registro_destino):05b}'
+        shamt = '0' * 5
+
+        codigo_binario = (opcode + fs + ft + fd + shamt + funct)
+
+
+
+        return codigo_binario
+    
+        
+    
+
+
 def decodificar_instrucciones():
     global archivo_entrada
     global archivo_salida
     with open(archivo_entrada) as entrada, open(archivo_salida, 'w') as salida:
         for linea in entrada:
-            instruccion_binaria = decodificar_linea(linea.strip(), codigos_TipoR)
+            instruccion_binaria = decodificar_linea(linea.strip())
             parte = dividirEnPartes(instruccion_binaria)
-            # salida.write(instruccion_binaria + '\n')
-            # print(parte)
             salida.write('\n'.join(parte) + '\n')
     return archivo_salida
 
 
 def dividirEnPartes(texto):
     return [texto[i:i+8] for i in range(0, len(texto), 8) ]
-
-def decodificar_linea(linea, codigos_TipoR):
-    partes = linea.split(',')
-    operacion = partes[0]
-    registro_fuente1 = partes[1]
-    registro_fuente2 = partes[2]
-    registro_destino = partes[3]
-
-    informacion_operacion = codigos_TipoR[operacion]
-
-    opcode = informacion_operacion['op']
-    funct = informacion_operacion['funct']
-    fs = f'{int(registro_fuente1):05b}'
-    ft = f'{int(registro_fuente2):05b}'
-    fd = f'{int(registro_destino):05b}'
-    shamt = '0' * 5
-
-    codigo_binario = (opcode + fs + ft + fd + shamt + funct)
-
-    return codigo_binario
 
 def abrir_archivo():
     global archivo_entrada
