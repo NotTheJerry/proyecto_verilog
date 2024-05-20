@@ -1,47 +1,53 @@
 module DataPath_TipoR ( input CLK,
 output [31:0] tr_salida_final );
 
-wire [31:0] salida_PC;			/* PC */
-wire [31:0] d1;					/* Cable para conectar PC a la memoria de isntrucciones */
-reg [31:0] reg_mas_4 = 32'd4;	/* Sumador +4 */ 
-wire [31:0] d2;					/* Cable para conectar sumador salida del sumador +4 a una de las entradas del mux 2 a 1 mas arriba */
-wire [31:0] d3;					/* Cable para la salida de la memoria de instrucciones */
+/* PC */   wire [31:0] salida_PC;
+/* Cable para conectar PC a la memoria de isntrucciones */ wire [31:0] d1;
+/* Sumador +4 */ reg [31:0] reg_mas_4 = 32'd4;
+/* Cable para conectar sumador salida del sumador +4 a una de las entradas del mux 2 a 1 mas arriba */ wire [31:0] d2;
+/* Cable para la salida de la memoria de instrucciones */ wire [31:0] d3;
+/* Cable para tomar bits de la salida de MemoriaDeInstrucciones a shift*/ wire [25:0]memAshift;
 
-wire [31:0] ad1;				/* Cable salida Add_ALU_Result */ 
+/* Cable salida Add_ALU_Result */ wire [31:0] ad1;
 
-wire [31:0] d4;					/* Cable salida read data 1 del banco */
-wire [31:0] d5;					/* Cable salida read data 2 del banco */ 
+/* Cable salida read data 1 del banco */ wire [31:0] d4;
+/* Cable salida read data 2 del banco */ wire [31:0] d5;
 
-wire [4:0] d6;					/* Cable salida mux entre banco y memIsntrucciones */ 
+/* Cable salida mux para bancoreg de memIsntrucciones */ wire [4:0] d6;
 
-wire MemToReg;					/* Salida de la Unidad de Control */
-wire MemToWrite;				/* Salida de la Unidad de Control */
-wire RegWrite;					/* Salida de la Unidad de Control */
-wire RegDst;					/* Salida de la Unidad de Control */
-wire [1:0] AluOpUnidad;			/* Salida de la Unidad de Control */
+/* Salida de la Unidad de Control */ wire MemToReg;
+/* Salida de la Unidad de Control */ wire MemToWrite;
+/* Salida de la Unidad de Control */ wire RegWrite;
+/* Salida de la Unidad de Control */ wire RegDst;
+/* Salida de la Unidad de Control */ wire [1:0] AluOpUnidad;
 
-wire [31:0] q1;					/* Cable salida del modulo Sign-Extend */
+/* Cable salida del modulo Sign-Extend */ wire [31:0] q1;
 
 
-wire [31:0] sh1;				/* Cable salida del modulo Shift_left_2 */
+/* Cable salida del modulo Shift_left_2 */ wire [31:0] sh1;
 
 wire [31:0] c2;
 
-wire [31:0] c3;					/* Cable salida de la ALU Natural */
+/* Cable salida de la ALU Natural */ wire [31:0] c3;
 
-wire [3:0] c4;					/* Cable salida de la ALU Control */
+/* Cable salida de la ALU Control */ wire [3:0] c4;
 
-wire [31:0] f1;					/* Cable salida del mux entre banco y ALU natural */
+/* Cable salida del mux entre banco y ALU natural */ wire [31:0] f1;
 
-wire [31:0] c5;					/* Cable salida de la memoria final al mux */
+/* Cable salida de la memoria final al mux */ wire [31:0] c5;
 
-wire salida_zf;					/* Cable salida puerto ZF de la ALU Natural */
+/* Cable salida puerto ZF de la ALU Natural */ wire salida_zf;
 
-wire k1;						/* Cable salida de la compuerta AND */
+/* Cable salida de la compuerta AND */ wire k1;
 
-wire [31:0] salida_multiplexor_arriba;/* Cable salida mux mas arriba */
+/* Cable salida mux mas arriba */ wire [31:0] salida_multiplexor_arriba;
 
-wire [31:0] s_mux_final;		/* Cable salida del multiplexor final mas recargado a la derecha */
+/* Cable salida del multiplexor final mas recargado a la derecha */  wire [31:0] s_mux_final;
+
+/* Cable de shift left al multiplexor */ wire [31:0]salidashift;
+
+/*Cable de la UnidadDeControl al mux */ wire Jump;
+/*Cable salida segundo mux de arriba a PC*/ wire [31:0]alaPC;
 
 
 Sumador sumador ( .entrada1( d1 ), .entrada2( reg_mas_4 ), .salida( d2 ) ); 
@@ -56,11 +62,23 @@ PC pc ( .entrada_PC( salida_multiplexor_arriba ), .CLK( CLK ), .salida_PC( d1 ) 
 
 MemoriaDeInstrucciones memInstruc ( .dir( d1 ), .salidaMemoriaDeInstrucciones( d3 ) );
 
+assign memAshift = d3[25:0];
+// NUEVO para tipo J
+Shift_left deInstruccionesdeMem ( .in(memAshift), .out(salidashift[27:0]));
 
+assign salidashift = {d2[31:26],salidashift};
+
+Multiplexor shifteinverso (.a(salidashift),.b(salida_multiplexor_arriba),.selector(Jump),.salida(alaPC));
+
+// MUX para banco de registro
 Multiplexor_5_bits_2_a_1 mux_entre_memInstrucciones_y_banco ( .a( d3[20:16] ), .b( d3[15:11] ), .selector( RegDst ),  .salida( d6 ) );
 
 BancoRegistros bancoRegistros ( .ra1( d3[25:21] ), .ra2( d3[20:16] ), .di( d3 ), .dir( d6 ), .ena( RegWrite ),
                                 .dr1( d4 ), .dr2( d5 ) );
+
+
+
+
 
 Sign_Extend s1 ( .a( d3[15:0] ), .salida( q1 ) );
 
@@ -73,7 +91,7 @@ ALU_Control aluControl ( .entradaFunct( d3[5:0] ), .ALUOp( AluOpUnidad ), .salid
 
 UnidadDeControl unidadDeControl ( .op( d3[31:26] ), 
 .RegDst( RegDst ), .Branch( Branch ), .MemToRead( MemToRead ),  .MemToReg( MemToReg ),
-.MemToWrite( MemToWrite ), .ALUSrc( ALUSrc ), .RegWrite( RegWrite ), .AluOp( AluOpUnidad ) );
+.MemToWrite( MemToWrite ), .ALUSrc( ALUSrc ), .RegWrite( RegWrite ), .AluOp( AluOpUnidad ),.Jump(Jump) );
 
 
 ALU alu ( .op1( d4 ), .op2( f1 ), .sel( c4 ), .res( c3 ), .zf( salida_zf ) );
@@ -88,7 +106,13 @@ Memoria memoria ( .dato( d5 ), .direccion( c3 ), .sel( MemToWrite ), .salida( c5
 
 Multiplexor multiplexor ( .a( c5 ), .b( c3 ), .selector( MemToReg ), .salida( s_mux_final ) );
 
+// NUEVO
+
+assign memAshift = d3[25:0];
 
 assign tr_salida_final = s_mux_final;
+
+
+// mux normal a -- 1    b --- 0
 
 endmodule

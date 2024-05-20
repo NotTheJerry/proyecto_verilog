@@ -8,6 +8,7 @@ initial begin
 end
 
 always @(dato or direccion or sel) begin
+
     if(sel) begin  //Escribir 1
         array[direccion]=dato;
         salida = 32'd0;

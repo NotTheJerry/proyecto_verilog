@@ -3,11 +3,13 @@ module BancoRegistros( input [4:0] ra1, input [4:0] ra2, input [31:0] di, input 
 
 reg [31:0] banco [31:0];
 
+
 initial begin
     $readmemb("memoria.txt",banco);
 end
 
 always @(ra1 or ra2 or dir or ena) begin
+
     case(ena)
         1'b1: begin
             banco[dir] = di;
@@ -20,6 +22,13 @@ always @(ra1 or ra2 or dir or ena) begin
         end
     endcase
 
+    // if(ena) begin
+    // banco[dir] = di;
+    // end
+    // dr1 = banco[ra1];
+    // dr2 = banco[ra2];
+
 end
+
 
 endmodule
