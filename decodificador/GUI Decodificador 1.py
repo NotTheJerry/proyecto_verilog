@@ -32,8 +32,16 @@ def decodificar_linea(linea):
 
     partes = linea.split(',')
     
+    if len(partes) == 1:
+        numero = partes[0]
+
+        numero_en_binario = f'{int(numero):032b}'
+
+        codigo_binario = numero_en_binario
+
+        return codigo_binario
+
     if len(partes) == 2:
-        print("HOLAAA 1")
         operacion = partes[0]
         direccion = partes[1]
 
@@ -47,7 +55,6 @@ def decodificar_linea(linea):
         return codigo_binario
 
     if ("#" in partes[3] and len(partes) == 4): 
-        print("HOLAAA 2")
         operacion = partes[0]
         registro_fuente = partes[1]
         registro_t = partes[2]
@@ -105,6 +112,15 @@ def decodificar_instrucciones():
             salida.write('\n'.join(parte) + '\n')
     return archivo_salida
 
+def decodificar_instrucciones32Bits():
+    global archivo_entrada
+    global archivo_salida
+    with open(archivo_entrada) as entrada, open(archivo_salida, 'w') as salida:
+        for linea in entrada:
+            instruccion_binaria = decodificar_linea(linea.strip())
+            salida.write(instruccion_binaria + '\n')
+    return archivo_salida
+
 
 def dividirEnPartes(texto):
     return [texto[i:i+8] for i in range(0, len(texto), 8) ]
@@ -132,6 +148,15 @@ def decodificar_y_guardar():
     archivo_salida = texto_archivo_salida.get(1.0, tk.END).strip()
     if archivo_entrada and archivo_salida:
         decodificar_instrucciones()
+        mensaje_estado.config(text="Archivo decodificado y guardado correctamente.", fg="green")
+    else:
+        mensaje_estado.config(text="Por favor, SELECCIONE archivos de entrada y salida.", fg="red")
+
+def decodificar_y_guardar32Bits():
+    archivo_entrada = texto_archivo_entrada.get(1.0, tk.END).strip()
+    archivo_salida = texto_archivo_salida.get(1.0, tk.END).strip()
+    if archivo_entrada and archivo_salida:
+        decodificar_instrucciones32Bits()
         mensaje_estado.config(text="Archivo decodificado y guardado correctamente.", fg="green")
     else:
         mensaje_estado.config(text="Por favor, SELECCIONE archivos de entrada y salida.", fg="red")
@@ -213,15 +238,17 @@ texto_archivo_salida.grid(row=1, column=1)
 boton_guardar = tk.Button(root, text="Guardar", command=guardar_archivo)
 boton_guardar.grid(row=1, column=2)
 
-boton_decodificar = tk.Button(root, text="Decodificar y Guardar", command=decodificar_y_guardar)
+boton_decodificar = tk.Button(root, text="Decodificar y Guardar (grupos de 8 bits)", command=decodificar_y_guardar)
 boton_decodificar.grid(row=2, column=1)
+boton_decodificar = tk.Button(root, text="Decodificar y Guardar (32 bits)", command=decodificar_y_guardar32Bits)
+boton_decodificar.grid(row=3, column=1)
 
 
 boton_salir = tk.Button(root,text = "Salir",command =salir)
-boton_salir.grid(row=4, column=1)
+boton_salir.grid(row=5, column=1)
 
 mensaje_estado = tk.Label(root, text="", fg="green")
-mensaje_estado.grid(row=3, column=0, columnspan=3)
+mensaje_estado.grid(row=4, column=0, columnspan=3)
 
 # Iniciar la aplicación
 root.mainloop()
