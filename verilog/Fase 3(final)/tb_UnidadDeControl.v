@@ -9,7 +9,6 @@ wire [1:0] AluOp;
 UnidadDeControl unidadDeControl1( .op( op ),
 .MemToReg( MemToReg ), .MemToWrite( MemToWrite ), .RegWrite( RegWrite ), .AluOp( AluOp ) );
 
-
 initial begin
     op = 6'b000000;
     #100;

@@ -1,5 +1,4 @@
 module MemoriaDeInstrucciones ( input [31:0] dir, output reg [31:0] salidaMemoriaDeInstrucciones );
-    //ancho y alto
     //8 bits de ancho y 256 de alto
     reg [7:0] mem [0:255];
 
@@ -21,8 +20,6 @@ module MemoriaDeInstrucciones ( input [31:0] dir, output reg [31:0] salidaMemori
         mem [10] = 8'b01001010;    
         mem [11] = 8'b00000010;
 
-        
-        
         salidaMemoriaDeInstrucciones =  { mem[dir], mem[dir + 1], mem[dir + 2], mem[dir + 3] };
 
     end

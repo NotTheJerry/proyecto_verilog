@@ -4,7 +4,6 @@ reg [5:0] entradaFunct;
 reg [1:0] ALUOp;
 wire [3:0] salida;
 
-
 ALU_Control aluControl1( .entradaFunct( entradaFunct ), .ALUOp( ALUOp ), .salida( salida ) );
 
 initial begin
@@ -22,7 +21,6 @@ initial begin
     #100;
     entradaFunct = 6'b101010; //STL
     ALUOp = 2'b10;
-
 end
 
 endmodule

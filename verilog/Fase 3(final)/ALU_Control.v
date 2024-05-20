@@ -1,7 +1,6 @@
 module ALU_Control( input [5:0] entradaFunct, input [1:0] ALUOp, output reg [3:0] salida );
 
 always @(*) begin
-
     case(ALUOp)
 		2'b00: salida = 4'b0010; // LW, SW
         2'b01: salida = 4'b0110; // BEQ
@@ -15,7 +14,7 @@ always @(*) begin
 				default:   salida = 4'bxxxx; // Invalid
             endcase
         end
-		default:   salida = 4'bxxxx; // Invalid
+		default:   salida = 4'bxxxx; // Invalido
     endcase
 
 end

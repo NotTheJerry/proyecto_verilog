@@ -5,9 +5,7 @@ reg [5:0] b;
 reg selector;
 wire [5:0] salida;
 
-
 Multiplexor_6_bits_2_a_1 mux ( .a( a ), .b( b ), .selector( selector ), .salida( salida ) );
-
 
 initial begin
     a=5'd4;
@@ -20,6 +18,5 @@ initial begin
     selector=1'b0;
     #100;
 end
-
 
 endmodule
